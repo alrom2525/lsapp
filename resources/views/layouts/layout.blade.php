@@ -6,11 +6,9 @@
 	<!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="css/app.css">
-    <script type="text/javascript" src="js/app.j"></script>
-    <!--
-	<link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
-  -->
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
+    <script type="text/javascript" src="/js/app.j"></script>
+   
     <title>{{config('app.name', 'LSAPP')}} </title>
 </head>
 <body>
