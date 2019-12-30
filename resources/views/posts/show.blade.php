@@ -8,8 +8,9 @@
 	<br>
 	<hr>
 	<div>
-		{{$post->body}}
+		{!!$post->body!!}
 	</div>
 	<hr>
 	<br>
 @endsection
+ 

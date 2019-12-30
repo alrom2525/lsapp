@@ -14,7 +14,13 @@
 <body>
 	@include('inc.navbar')
 	<div class="container ">
+        @include('inc.messages')
     	@yield('content')
     </div>
+        <script src="http://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+    
+    <script>
+    CKEDITOR.replace( 'editor1' );
+</script>
 </body>
 </html>

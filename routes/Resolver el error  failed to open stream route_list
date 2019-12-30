@@ -1,9 +1,0 @@
-Resolver el error:
-
-edgardo@edgardo-pc:/var/www/dev.lsapp.com/lsapp$ php artisan route:list
- 
-   ErrorException  : include(/var/www/dev.lsapp.com/lsapp/vendor/composer/../../app/Http/Controllers/PostsController.php.php): failed to open stream: No such file or directory
-
-
-   edgardo$ composer install
-https://blog.chapagain.com.np/solved-laravel-error-failed-to-open-stream-no-such-file-or-directory-bootstrapautoload-php/
