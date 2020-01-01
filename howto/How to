@@ -1,3 +1,4 @@
+<?php
 How to?
 
 -> Create a login system:
@@ -16,10 +17,33 @@ How to?
 
 ->Rollback migration
 	$php artisan migrate rollbak
-->Add a relationship in the model
 
+->Add a relationship in the model
+	Example: the user can have more than one post
+	write this at the User model:
+    public function posts(){
+        return $this->hasMany('App\Post');
+    }
+
+    write this at the Post model:
+	public function user()
+    { return $this->belongsTo('App\User'); }
+
+->Add a relationship
+
+Laravel From Scratch [Part 9] - User Authentication
 This video explains how to?
 1. Create a login system
 2. Change the name home to dashboard view
 3. When we create a post we want to insert the user ID as a field
 4. Rollback migration
+
+
+Laravel From Scratch [Part 10] - Model Relationships
+This video explains how to?
+1. Add a relationship between the blog
+   posts and the users 
+
+2. To be able to display just the current users
+   posts in the dashboard all right then
+
