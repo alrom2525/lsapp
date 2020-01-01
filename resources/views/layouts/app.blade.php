@@ -28,12 +28,12 @@
                 </div>
             @yield('content')
             </div>
-            <script src="http://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+
+             <script src="http://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
     
             <script>
                 CKEDITOR.replace( 'editor1' );
             </script>
-
     </div>
 </body>
 </html>
