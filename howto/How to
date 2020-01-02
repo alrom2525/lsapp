@@ -45,5 +45,11 @@ This video explains how to?
    posts and the users 
 
 2. To be able to display just the current users
-   posts in the dashboard all right then
+   posts in the dashboard all
 
+Laravel From Scratch [Part 11] - Access Control
+This video explains how to?
+1. Implement some access control and some safeguards
+2. Add exceptions to the auth middleware
+3. Create protection against other people editing & delete
+people's posts
