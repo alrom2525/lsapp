@@ -1,4 +1,8 @@
 <?php
+
+CODE: Complete Code For This Series
+https://github.com/bradtraversy/lsapp
+
 How to?
 
 -> Create a login system:
@@ -31,6 +35,12 @@ How to?
 
 ->Add a relationship
 
+->Create a link to the storage through public folder
+  in order to upload the images
+ $php artisan storage:link
+ 
+ Result: The [public/storage] directory has been linked.
+
 Laravel From Scratch [Part 9] - User Authentication
 This video explains how to?
 1. Create a login system
@@ -53,3 +63,11 @@ This video explains how to?
 2. Add exceptions to the auth middleware
 3. Create protection against other people editing & delete
 people's posts
+
+Laravel From Scratch [Part 12] - File Uploading & Finishing Up
+This video explains how to?
+1. Add file uploading to our posts (images)
+2. Create a multipart data form
+3. Create a folder to upload images
+4. Create a link to the storage through public folder
+  in order to upload the images

@@ -12,6 +12,8 @@
 	</div>
 	<hr>
 	<br>
+	<img class="card-img-top" src="/storage/cover_images/{{$post->cover_image}}">
+	<br> <br>
 	@if(!Auth::guest()) 
 		@if(Auth::user()->id == $post->user_id)
 			<a href="/posts/{{$post->id}}/edit" class="btn btn-secondary">Edit</a>
